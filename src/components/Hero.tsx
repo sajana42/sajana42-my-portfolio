@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Zap, Cpu } from "lucide-react";
 // Make sure the path is correct and import is at the top
-import profileImage from "../assest/Sajana.jpg"; // Check if this path matches your project structure
+import profileImage from "../../src/assest/sajana.jpg"; 
 
 export const Hero = () => {
   return (
