@@ -17,7 +17,7 @@ export const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      details: "sajanasenanayke2000@example.com",
+      details: "sajanasenanayke2000@gmail.com",
       subtitle: "Online support",
     },
     {
@@ -35,7 +35,7 @@ export const Contact = () => {
     const form = e.target as HTMLFormElement;
     const formData = {
       to_name: "Recipient Name", // Replace with actual recipient name
-      from_name: form.name.value,
+      from_name: form.name.valueOf,
       from_email: form.email.value,
       subject: form.subject.value,
       message: form.message.value,
