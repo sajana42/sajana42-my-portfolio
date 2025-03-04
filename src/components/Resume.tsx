@@ -10,7 +10,19 @@ export const Resume = () => {
     period: "2024 - 2025",
     description: "Leading power systems design and implementation for industrial clients.",
     responsibilities: ["Design and optimization of power distribution systems", "Team leadership and project management", "Technical consultation and client communication"]
-  },];
+  },
+  {
+    title: "Bank Employee",
+    company: "Hatton National Bank PLC · Internship",
+    period: "2021 - 2022",
+    "description": "Assisted in banking operations, customer service, and financial transactions.",
+    "responsibilities": [
+    "Processing customer transactions and account management",
+    "Providing customer support and resolving inquiries",
+    "Assisting with financial documentation and compliance checks"
+  ]
+  },
+];
 
   return (
     <section id="resume" className="py-20 bg-slate-800/50">
